@@ -17,7 +17,7 @@ p{
   font-family: 'Nunito', sans-serif;
   font-size: 20px;
   line-height: 30px;
-  color: #9a9ea1;  
+  color: #6c757d;  
 }
 
 body{
@@ -115,3 +115,15 @@ header{
   border-radius: 20px;
   padding: 5px 25px; 
 }
+
+.content-box a:hover{
+  color: #000;
+  background: #fff;
+  transition: 0.5s all;
+
+}
+
+.content-box p{
+  color: #fff;
+}
+
