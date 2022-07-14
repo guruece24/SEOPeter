@@ -16,7 +16,7 @@ $(document).ready(function(){
     var typed = new Typed(".telement", {
     strings: ['Peter', 'SEO Expert', 'a Designer', 'a Manager', 'a Business Specialist'],
     smartBackspace: true,
-    typeSpeed: 100,
+    typeSpeed: 80,
     backSpeed: 100,
     loop: true,
     loopCount: Infinity,

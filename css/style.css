@@ -20,9 +20,11 @@ p{
   color: #6c757d;  
 }
 
-body{
-  background: #000;
+.r-p{
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
+
 
 /* navigation */
 nav.r-nav{
@@ -56,7 +58,7 @@ nav.r-nav.stickyadd {
 } 
 
 nav.stickyadd .navbar-brand{
-  color: #fff;
+  color: #000;
   font-size: 40px;
   transition: .5s all;
 }
@@ -126,4 +128,39 @@ header{
 .content-box p{
   color: #fff;
 }
+
+/* about us */
+.about li a {
+  color: #000;
+  display: inline-block;
+  height: 42px;
+  width: 42px;
+  font-size: 20px;
+  border: 2px solid #d4d4d4d4;
+  border-radius: 50%;
+  line-height: 40px;
+  transition: 0.5s all;
+  text-align: center;
+}
+
+.about li a:hover{
+  color: #EE8683;
+}
+
+/* Experience Section*/
+.exp-class .progress{
+  height: 10px;
+  border-radius: 20px;
+  font-size: 10px;  
+}
+
+.progress-bar{
+  background-color: #EE8683 !important; 
+}
+
+.exp-class label{
+  font-size: 20px;
+  margin: 10px;   
+}
+
 
