@@ -15,14 +15,14 @@ h6 {
 
 p{
   font-family: 'Nunito', sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 30px;
   color: #6c757d;  
 }
 
 .r-p{
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 
@@ -149,7 +149,7 @@ header{
 
 /* Experience Section*/
 .exp-class .progress{
-  height: 10px;
+  height: 11px;
   border-radius: 20px;
   font-size: 10px;  
 }
@@ -159,8 +159,43 @@ header{
 }
 
 .exp-class label{
-  font-size: 20px;
+  font-size: 16px;
   margin: 10px;   
 }
+
+.bg-sec{
+  /* background: #F8F9FA; */
+}
+
+.card{ 
+  height: 400px;
+  display: solid;
+  flex-direction: column;
+   margin: 10px; 
+  box-sizing: border-box;
+  text-align: center;
+  padding: 10px; 
+}
+
+.card, .card-header{
+  background: #F8F9FA !important;
+}
+
+.card-header {
+  border: none !important;
+}
+
+.services-class .card-header i{
+  font-size: 25px;
+}
+
+.service-border{
+  height: 2px;
+  width: 40px;
+  margin: 15px auto;
+  background: #e65f78;
+}
+
+
 
 
