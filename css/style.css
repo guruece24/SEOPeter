@@ -44,6 +44,7 @@ nav .navbar-nav li a {
   letter-spacing: 0.05em;
   font-weight: 600;
   font-family: 'Nunito', sans-serif;
+  
 }
 
 nav .navbar-nav li{
@@ -129,7 +130,7 @@ header{
   color: #fff;
 }
 
-/* subheader */
+/* subheader services */
 .sub-header{
   height: 60vh;
   width: 100%;
@@ -184,12 +185,13 @@ header{
 }
 
 .bg-sec{
-  /* background: #F8F9FA; */
+   background: #f8f9fa;
 }
 
+/* services */
 .card{ 
   height: 400px;
-  display: solid;
+  display: flex;
   flex-direction: column;
    margin: 10px; 
   box-sizing: border-box;
@@ -214,7 +216,37 @@ header{
   width: 40px;
   margin: 15px auto;
   background: #e65f78;
+  transition: 0.5s all;
 }
+
+.services h5::hover + .service-border {
+  width: 100px;
+}
+
+/* .card:hover{
+	box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+} */
+
+/* testimony  */
+.testimony-class .test-item {
+ max-width: 500px;
+ margin: 50px auto;
+}
+
+.testimony-class .test-item .test-img{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.testimony-class .test-item i{
+color: grey;
+}
+
+.testimony-class .test-item p.test-name{
+  font-size: 13px;
+}
+
 
 
 
