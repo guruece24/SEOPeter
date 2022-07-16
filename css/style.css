@@ -26,6 +26,12 @@ p{
 }
 
 
+.r-btn {
+  padding: 5px 20px;
+  background-color: #ee8683 !important;
+  color: #fff !important;
+}
+
 /* navigation */
 nav.r-nav{
   background: transparent;
@@ -245,6 +251,12 @@ color: grey;
 
 .testimony-class .test-item p.test-name{
   font-size: 13px;
+}
+
+/* Work */
+.work .card-wrapper {
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 

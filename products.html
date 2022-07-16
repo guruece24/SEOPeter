@@ -12,7 +12,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
-	<title>Clients</title>
+	<title>Products</title>
 </head>
 <body>
 
@@ -41,7 +41,7 @@
 					 </li>
 
 					 <li class="nav-item">
-						<a href="products.html" class="nav-link">Portfolio</a>
+						<a href="products.html" class="nav-link">Products</a>
 					 </li>	
 					 
 					 <li class="nav-item">
@@ -53,67 +53,71 @@
 	</nav>
 
 	<div class="sub-header">		
-		<h1>Home/Clients</h1>		
+		<h1>Home/Products</h1>		
 	</div>
 
-	<section class="testimony-class  r-p" id="testimony-id">
+	<!-- work -->
+	<section class="work r-p" id="work">
 		<div class="container text-center">
 			<div class="row">
-				<div class="col">
-					<div class="col">
-						<h3>Testimony</h3>
-						<p>What people say</p>
-					</div>
+				<div class="col mb-5">
+					<h2>Work</h2>
+					<p>What I have created</p>
 				</div>
 			</div>
 
 			<div class="row">
-				<div class="col">
-					<div class="owl-carousel owl-theme">
-						<div class="item">
-							<div class="text-center test-item">
-								<i class="fas fa-quote-left"></i>
-								<div><img src="/images/t1.jpg" alt="" class="mx-auto test-img rounded-circle">
-								<p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas enim corporis ducimus saepe laudantium facere?</p>
-								<p class="test-name">Jessi Walter, CEO, Mur.com</p>
-								</div>
-							</div>
-						</div>
+				<div class="col-xs-12 mx-auto mb-5">
+					<button class="btn r-btn" data-filter="all">All</button>
+					<button class="btn r-btn" data-filter="1">Web</button>
+					<button class="btn r-btn" data-filter="2">SEO</button>
+					<button class="btn r-btn" data-filter="3">Graphics</button>
+					<button class="btn r-btn" data-filter="4">Apps</button>
+				</div>
+			</div>
 
-						<div class="item">
-							<div class="text-center test-item">
-								<i class="fas fa-quote-left"></i>
-								<div><img src="/images/t2.jpg" alt="" class="mx-auto test-img rounded-circle">
-								<p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas enim corporis ducimus saepe laudantium facere?</p>
-								<p class="test-name">Caron Smith, Product Manager, Lopra.co</p>
-								</div>
-							</div>
+			<div class="container">
+				<div class="row filter-container mx-auto">
+					<div class="col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" data-category="1,2">
+						<div>
+							<img src="images/w1.jpg" alt="" class="img-fluid">
 						</div>
+					</div>
 
-						<div class="item">
-							<div class="text-center test-item">
-								<i class="fas fa-quote-left"></i>
-								<div><img src="/images/t3.jpeg" alt="" class="mx-auto test-img rounded-circle">
-								<p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas enim corporis ducimus saepe laudantium facere?</p>
-								<p  class="test-name">Alan Harper, CEO, thm.com</p>
-								</div>
-							</div>
+					<div class="col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" data-category="4,2">
+						<div>
+							<img src="images/w2.jpg" alt="" class="img-fluid">
 						</div>
+					</div>
 
-						<div class="item">
-							<div class="text-center test-item">
-								<i class="fas fa-quote-left"></i>
-								<div><img src="/images/t4.jpg" alt="" class="mx-auto test-img rounded-circle">
-								<p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas enim corporis ducimus saepe laudantium facere?</p>
-								<p class="test-name">Jessi Walter, Manager, Murno.com</p>
-								</div>
-							</div>
+					<div class="col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" data-category="1,4,2" >
+						<div>
+							<img src="images/w3.jpg" alt="" class="img-fluid">
+						</div>
+					</div>
+
+					<div class="col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" data-category="4,3,2">
+						<div>
+							<img src="images/w4.jpg" alt="" class="img-fluid">
+						</div>
+					</div>
+
+					<div class="col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" data-category="4,1,3" >
+						<div>
+							<img src="images/w5.jpg" alt="" class="img-fluid">
+						</div>
+					</div>
+
+					<div class="col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" data-category="3,4,1" >
+						<div>
+							<img src="images/w7.jpg" alt="" class="img-fluid">
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
+
 	 
 	<script type="text/javascript" lang="javascript" src="/lib/jquery-3.6.0.min.js"></script>
 	<script src="/lib/popper.min.js"></script>
@@ -121,6 +125,7 @@
 	<script src="/lib/typed.js"></script>
 	<script src="/lib/owl.carousel.min.js"></script>
 	<script src="/lib/jquery.waypoints.min.js"></script>
+	<script src="/lib/jquery.filterizr.min.js"></script>
 	<script src="/js/clients.js"></script>
 </body>
 </html>
