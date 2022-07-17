@@ -30,6 +30,7 @@ p{
   padding: 5px 20px;
   background-color: #ee8683 !important;
   color: #fff !important;
+  margin: 2px;
 }
 
 /* navigation */
@@ -258,6 +259,15 @@ color: grey;
   padding-top: 15px;
   padding-bottom: 15px;
 }
+
+/* Contact */
+.contact .r-icon {
+  font-size: 50px;
+  text-align: center;
+}
+
+
+
 
 
 
