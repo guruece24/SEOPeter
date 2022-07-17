@@ -102,14 +102,33 @@
 				</div>
 			</div>		
 
-		</div>
+			<form  name="contact" method="POST" data-netlify="true" class="row g-3" action="">
+					<div class="col-md-6">
+						<input type="text" name="name" class="form-control" placeholder="Name" id="name">
+					</div>				
+
+					<div class="col-md-6">
+						<input type="email" name="email" class="form-control" placeholder="Email Address" id="Email">
+					</div>
+
+					<div class="col-12">
+						<input type="text" name="subject" class="form-control" id="inputAddress" placeholder="Subject">
+					</div>
+
+					<div class="col-12">
+						<textarea class="form-control" name="message" rows="7" placeholder="Your Message" style="resize:none;"></textarea>
+					</div>
+
+					<div class="col-12">
+						<button type="submit" name="submit" class="btn r-btn float-right way-fade-left">Submit</button>
+					</div>
+			</form>		
+		</div>		
 	</section>
 
 	 
 	<script type="text/javascript" lang="javascript" src="/lib/jquery-3.6.0.min.js"></script>
 	<script src="/lib/popper.min.js"></script>
 	<script src="/lib/bootstrap/js/bootstrap.min.js"></script>	
-	<script src="/lib/jquery.filterizr.min.js"></script>
-	<script src="/js/products.js"></script>
 </body>
 </html>
