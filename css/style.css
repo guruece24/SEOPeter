@@ -281,6 +281,28 @@ color: grey;
   position:absolute;
 }
 
+/* footer */
+footer{
+  height: 200px;
+  background-color: #333333; 
+
+}
+
+footer .r-icon a{
+  font-size: 20px;
+  color: #848484;
+  padding: 10px;
+  border: 1px solid #848484;
+  border-radius: 50%;
+}
+
+footer .r-icon a:hover{
+  border: 1px solid #eee;
+  color:#eee;
+  transition: .1s all;
+  font-size: 22px;
+}
+
 
 
 
