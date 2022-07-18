@@ -1,8 +1,13 @@
 $(document).ready(function(){ 
 
+ // $(window).on('scroll', function(){
+  setTimeout(function(){ 
+    $(".preloader").addClass("complete");
+  }, 2000);
+
   $(window).on('scroll', function(){
     var scroll = $(window).scrollTop();
-    console.log(scroll);
+    // console.log(scroll);
     if(scroll >= 50)
     {
       $(".sticky").addClass("stickyadd");
@@ -13,7 +18,7 @@ $(document).ready(function(){
     }
   });
 
-    var typed = new Typed(".telement", {
+    var typed = new Typed(".element", {
     strings: ['Peter', 'SEO Expert', 'a Designer', 'a Manager', 'a Business Specialist'],
     smartBackspace: true,
     typeSpeed: 80,
