@@ -85,7 +85,7 @@ p{
   border-radius: 50%;
   border: 10px solid rgba(255, 255, 255, 0.1);
   border-top: 10px solid #ee8683;
-  animation: animate 1.5s infinite linear;
+  animation: animate 1s infinite linear;
   z-index: 99999;
 }
 
@@ -297,9 +297,9 @@ header{
   width: 100px;
 }
 
-/* .card:hover{
+.card:hover{
 	box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
-} */
+}
 
 /* testimony  */
 .testimony-class .test-item {

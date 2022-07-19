@@ -3,7 +3,7 @@ $(document).ready(function(){
  // $(window).on('scroll', function(){
   setTimeout(function(){ 
     $(".preloader").addClass("complete");
-  }, 2000);
+  }, 1500);
 
   $(window).on('scroll', function(){
     var scroll = $(window).scrollTop();
