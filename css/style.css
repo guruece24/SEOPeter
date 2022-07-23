@@ -387,7 +387,7 @@ footer .r-icon a:hover{
   cursor: pointer;
 }
 
-.pricing-table-3.basic.price{
+.pricing-table-3.basic .price{
   background-color: #28b6f6;
   color: #FFF;
 }
