@@ -14,7 +14,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
 	<link rel="stylesheet" href="/lib/animate.css">
-	<title>ContactMe</title>
+	<title>Clients</title>
 </head>
 <body>
 
@@ -24,7 +24,6 @@
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarId">
 				<span><i class="fas fa-bars hamburger"></i></span>
 			</button>
-
 			<div class="collapse navbar-collapse" id="navbarId">
 				 <ul class="navbar-nav ms-auto">
 					 <li class="nav-item animated fadeInRight">
@@ -52,81 +51,66 @@
 	</nav>
 
 	<div class="sub-header">		
-		<h1>Home/ContactMe</h1>		
+		<h1>Home/Clients</h1>		
 	</div>
 
-	<!-- contact -->
-	<section class="contact r-p">
+	<section class="testimony-class  r-p" id="testimony-id">
 		<div class="container text-center animated fadeInLeft">
 			<div class="row">
 				<div class="col">
-					<h2>Contact Me</h2>
-					<p>Feel free to contact me.</p>
+					<div class="col">
+						<h3>Testimony</h3>
+						<p>What people say</p>
+					</div>
 				</div>
 			</div>
 
-			<div class="map-responsive mb-3">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15546.67792214631!2d77.5157172!3d13.0566981!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb4e585b1acbd3cfe!2sSEO%20Expert%20Peter!5e0!3m2!1sen!2sin!4v1658043566844!5m2!1sen!2sin" width="1100" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>			
+			<div class="row">
+				<div class="col">
+					<div class="owl-carousel owl-theme">
+						<div class="item">
+							<div class="text-center test-item">
+								<i class="fas fa-quote-left"></i>
+								<div><img src="/images/t1.jpg" alt="" class="mx-auto test-img rounded-circle">
+								<p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas enim corporis ducimus saepe laudantium facere?</p>
+								<p class="test-name">Jessi Walter, CEO, Mur.com</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="text-center test-item">
+								<i class="fas fa-quote-left"></i>
+								<div><img src="/images/t2.jpg" alt="" class="mx-auto test-img rounded-circle">
+								<p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas enim corporis ducimus saepe laudantium facere?</p>
+								<p class="test-name">Caron Smith, Product Manager, Lopra.co</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="text-center test-item">
+								<i class="fas fa-quote-left"></i>
+								<div><img src="/images/t3.jpeg" alt="" class="mx-auto test-img rounded-circle">
+								<p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas enim corporis ducimus saepe laudantium facere?</p>
+								<p  class="test-name">Alan Harper, CEO, thm.com</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="text-center test-item">
+								<i class="fas fa-quote-left"></i>
+								<div><img src="/images/t4.jpg" alt="" class="mx-auto test-img rounded-circle">
+								<p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas enim corporis ducimus saepe laudantium facere?</p>
+								<p class="test-name">Jessi Walter, Manager, Murno.com</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
-
-			<div class="row mt-5">
-				<div class="col-md-4">
-					<div class="r-icon">
-						<i class="fas fa-mobile-alt"></i>
-						<div class="text-center">
-							<h5>Call Me</h5>
-							<p>097423 89338</p>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-4">
-					<div class="r-icon">
-						<i class="far fa-envelope"></i>
-						<div class="text-center">
-							<h5>Mail Me</h5>
-							<p>peterblr.j@gmail.com</p>
-						</div>
-					</div>					
-				</div>
-
-				<div class="col-md-4">
-					<div class="r-icon">
-						<i class="fas fa-map-pin"></i>
-						<div class="text-center">
-							<h5>Visit Me</h5>
-							<p>Mary Illam, no 14, 2nd Cross Vijayalakshmi Layout, opp. Shooting Bunglow, Bengaluru, Karnataka 560057</p>
-						</div>
-					</div>					
-				</div>
-			</div>		
-
-			<form  name="contact" method="POST"  class="row g-3" action="s.php">
-					<div class="col-md-6">
-						<input type="text" name="name" class="form-control" placeholder="Name" id="name">
-					</div>				
-
-					<div class="col-md-6">
-						<input type="email" name="email" class="form-control" placeholder="Email Address" id="Email">
-					</div>
-					
-					<div class="col-md-6">
-					<input type="text" name="mobile" class="form-control" id="inputAddress" placeholder="Mobile">
-					</div>
-
-					<div class="col-md-6">
-						<input type="text" name="city" class="form-control" id="inputAddress" placeholder="Subject">
-					</div>
-
-					<div class="col-12">
-						<textarea class="form-control" name="message" rows="7" placeholder="Your Message" style="resize:none;"></textarea>
-					</div>
-
-					<div class="col-12">
-						<button type="submit" name="submit" class="btn r-btn float-right way-fade-left">Submit</button>
-					</div>
-			</form>		
-		</div>		
+		</div>
 	</section>
 
 	<!-- footer -->
@@ -168,12 +152,11 @@
 		</div>
 		</div>
 	</footer>
-
 	 
 	<script type="text/javascript" lang="javascript" src="/lib/jquery-3.6.0.min.js"></script>
 	<script src="/lib/popper.min.js"></script>
 	<script src="/lib/bootstrap/js/bootstrap.min.js"></script>	
-	<script src="/js/services.js"></script>
-
+	<script src="/lib/owl.carousel.min.js"></script>
+	<script src="/js/clients.js"></script>
 </body>
 </html>
