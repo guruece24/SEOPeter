@@ -41,4 +41,8 @@ $(document).ready(function(){
     offset: '90%'
   });
 
+  $('a').smoothScroll({
+    speed:2000,
+  });
+
 });
