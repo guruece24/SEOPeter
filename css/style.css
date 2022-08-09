@@ -17,7 +17,8 @@ p{
   font-family: 'Nunito', sans-serif;
   font-size: 16px;
   line-height: 30px;
-  color: #6c757d;  
+  color:  #565b5f;
+  /* color: #6c757d;   */
 }
 
 .r-p{
@@ -348,6 +349,20 @@ color: grey;
   position:absolute;
 }
 
+/* seo content section */
+.seocontent-class {
+  /* margin: 20px auto; */
+  /* margin-top: 30px; */
+  width: 90%;
+  height: 100%;
+  margin: 70px auto;
+}
+
+.seocontent-class p{
+  font-size: 15px;
+}
+
+
 /* footer */
 footer{
   height: 200px;
@@ -461,6 +476,7 @@ footer .r-icon a:hover{
   font-size: 13px;
   padding: 10px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: left;
 }
 
 .pricing-table-3 .pricing-table-ul .fa{
